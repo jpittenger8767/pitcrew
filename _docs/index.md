@@ -1,39 +1,56 @@
 ---
 layout: docs
 title: Documentation
-description: Technical documentation, guides, and resources for our team.
+description: Everything you need to know about your PitCrew site and your team.
 permalink: /docs/
 ---
 
-Welcome to our team's documentation! Here you'll find technical guides, resources, and information about how our team operates.
-
-## Getting Started
-
-New to the team? Start here:
-
-- [Quick Start Guide](/docs/getting-started/) - Get up to speed quickly
-- [Team Handbook](/docs/handbook/) - Rules, expectations, and procedures
-- [Safety Guidelines](/docs/safety/) - Important safety information
-
-## Technical Documentation
-
-### Robot Systems
-- [Robot Overview](/docs/robot/) - Current robot architecture
-- [Programming Guide](/docs/programming/) - Software development resources
-- [Electrical Systems](/docs/electrical/) - Wiring and electronics
-- [CAD Resources](/docs/cad/) - Design files and tutorials
-
-### Operations
-- [Competition Checklist](/docs/competition-checklist/) - What to bring and do
-- [Outreach Guide](/docs/outreach/) - Community engagement best practices
-
-## Resources
-
-- [Useful Links](/docs/links/) - External resources and references
-- [Glossary](/docs/glossary/) - Robotics terminology explained
+> **New to PitCrew?** The fastest way to get your site ready is the [Setup Wizard](/wizard/) — it takes 2–3 hours and requires no coding.
 
 ---
 
-## Contributing to Documentation
+## Site Setup
 
-Found an error or want to add something? Our documentation is maintained by the team. Talk to a mentor about contributing!
+Get your team website configured and deployed.
+
+| Guide | What it covers |
+|---|---|
+| [Quick Start Guide](/docs/getting-started/) | Wizard walkthrough, first steps, what to prepare |
+| [Site Configuration](/docs/site-setup/) | Colors, features, navigation, data files — wizard and manual |
+
+---
+
+## Team Guides
+
+Reference material for day-to-day team operations.
+
+| Guide | What it covers |
+|---|---|
+| [Team Handbook](/docs/handbook/) | Policies, expectations, meeting schedule, code of conduct |
+| [Safety Guidelines](/docs/safety/) | Required reading before using tools or equipment |
+| [Outreach Guide](/docs/outreach/) | Community engagement and STEM event best practices |
+
+---
+
+## Robot & Technical
+
+| Guide | What it covers |
+|---|---|
+| [Robot Overview](/docs/robot/) | Current robot architecture and subsystems |
+| [Programming Guide](/docs/programming/) | Software workflow, version control, autonomous |
+| [Electrical Systems](/docs/electrical/) | Wiring diagrams, sensors, power distribution |
+| [CAD Resources](/docs/cad/) | Design files, conventions, and tutorials |
+
+---
+
+## Competition & Resources
+
+| Guide | What it covers |
+|---|---|
+| [Competition Checklist](/docs/competition-checklist/) | What to bring, pre-match routine, packing list |
+| [Useful Links](/docs/links/) | External references — game manual, SDK docs, community |
+| [Glossary](/docs/glossary/) | Robotics terminology explained |
+
+---
+
+*Have a correction or something to add? Talk to a mentor about contributing to these docs.*

@@ -6,6 +6,8 @@
       url: /docs/
     - title: Quick Start Guide
       url: /docs/getting-started/
+    - title: Site Configuration
+      url: /docs/site-setup/
     - title: Team Handbook
       url: /docs/handbook/
 
