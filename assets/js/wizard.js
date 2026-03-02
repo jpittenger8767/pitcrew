@@ -120,6 +120,7 @@ site:
   program: ${ys(c.site.program)}
   current_season: ${ys(c.site.current_season)}
   logo: ${ys(c.site.logo)}
+${c.site.hero_image ? `  hero_image: ${ys(c.site.hero_image)}` : `  # hero_image: "/assets/images/hero.jpg"  # Optional: replaces the hero gradient with a photo`}
 
 # Theme configuration
 # Edit colors here. Changes take effect after restarting Jekyll.
@@ -234,6 +235,8 @@ exclude:
   - package-lock.json
   - tailwind.config.js
   - README.md
+  - SPEC.md
+  - CLAUDE.md
   - scripts
   - "*.py"
   - requirements.txt
@@ -430,7 +433,8 @@ function renderIdentity() {
   <div class="wiz-grid-2">
     ${fld('Current Season', 'id-season', s.current_season, 'text', 'placeholder="e.g. 2025-2026"')}
     ${fld('Logo Path', 'id-logo', s.logo, 'text', 'placeholder="/assets/images/logo.png"')}
-  </div>`;
+  </div>
+  ${fld('Hero Background Image', 'id-hero', s.hero_image || '', 'text', 'placeholder="/assets/images/hero.jpg — leave blank to use gradient"')}`;
 }
 
 function renderColors() {
@@ -818,6 +822,7 @@ function saveCurrentStep() {
     s.team_number            = gv('id-team-number') || s.team_number;
     s.current_season         = gv('id-season')      || s.current_season;
     s.logo                   = gv('id-logo')        || s.logo;
+    s.hero_image             = gv('id-hero');
     const prog = document.querySelector('input[name="program"]:checked');
     if (prog) s.program = prog.value;
   }
