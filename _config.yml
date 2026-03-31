@@ -1,28 +1,28 @@
 # Site settings
-title: "PitCrew Robotics"
-description: "https://github.com/braineatingmachines/pitcrew"
+title: "Dark Horse Robotics"
+description: "https://github.com/nbrobotics/teamWebsite"
 url: ""
 baseurl: ""
 
 # Team configuration
 site:
-  team_name: "PitCrew"
-  team_number: "271828"
-  program: "FTC"  # FTC or FRC
+  team_name: "Dark Horse Robotics"
+  team_number: "8767"
+  program: "FRC"
   current_season: "2025-2026"
   logo: "/assets/images/placeholder.svg"
   # hero_image: "/assets/images/hero.jpg"  # Optional: replaces the hero gradient with a photo
 
-# Theme configuration - Official FTC Colors
-# Edit colors here. Changes take effect after restarting Jekyll (no CSS rebuild needed).
+# Theme configuration
+# Edit colors here. Changes take effect after restarting Jekyll.
 theme:
   colors:
     # Brand colors
-    primary: "#003974"              # Deep Blue
-    primary_highlight: "#002855"    # Darker blue (hover states, gradient end)
-    primary_darkest: "#001a3d"      # Very dark navy (hero gradient end)
-    secondary: "#F57E25"            # FIRST Orange (brand color)
-    secondary_highlight: "#d96a1f"  # Darker orange (hover states)
+    primary: "#003974"
+    primary_highlight: "#002042"
+    primary_darkest: "#000000"
+    secondary: "#000000"
+    secondary_highlight: "#000000"
     # Semantic colors
     success: "#28a745"
     info: "#17a2b8"
@@ -35,14 +35,11 @@ theme:
     sponsor_bronze: "#92400e"
   dark_mode: true
 
-# Startup wizard — set to false after completing initial setup
-startup_wizard: true
-
 # Features toggle
 features:
   blog: true
   docs: true
-  cad_viewer: true
+  cad_viewer: false
   circuit_viewer: true
   code_links: true
   data_visualizations: true
@@ -52,34 +49,37 @@ features:
 
 # Navigation
 navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Season
-    url: /season/
-  - title: Awards
-    url: /awards/
-  - title: Sponsors
-    url: /sponsors/
-  - title: Docs
-    url: /docs/
-  - title: News
-    url: /news/
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Season"
+    url: "/season/"
+  - title: "Awards"
+    url: "/awards/"
+  - title: "Sponsors"
+    url: "/sponsors/"
+  - title: "Docs"
+    url: "/docs/"
+  - title: "News"
+    url: "/news/"
 
 # Social links
 socials:
-  instagram: "https://instagram.com/teamrobotics"
-  github: "https://github.com/teamrobotics"
-  youtube: "https://youtube.com/@teamrobotics"
-  twitter: "https://twitter.com/teamrobotics"
-  email: "team@example.com"
+  instagram: "https://www.instagram.com/darkhorse8767/"
+  github: "https://github.com/nbrobotics"
+  youtube: "https://www.youtube.com/@Darkhorse8767"
+  twitter: ""
+  email: "darkhorserobotics8767@gmail.com"
 
 # Fundraising/Donations
 fundraising:
   enabled: false
   url: ""
   text: "Support Our Team"
+
+# Startup wizard — set to false after initial setup
+startup_wizard: false
 
 # Collections
 collections:
